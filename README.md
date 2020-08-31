@@ -2,7 +2,7 @@
 
 > Simple React hooks for fetching data using axios with prepared axios cancel token already set
 
-[![NPM](https://img.shields.io/npm/v/use-axios.svg)](https://www.npmjs.com/package/use-axios) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/rad-use-axios.svg)](https://www.npmjs.com/package/rad-use-axios) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -16,20 +16,27 @@ You can use it as regular axios
 
 ```tsx
 
-import axios from 'rad-use-axios'
+import useAxios from 'rad-use-axios'
 
-//use it like a regular axios
-axios({
-  method:'post',
-  url: 'url',
-  data: data
-})
+const App = () => {
+  // initialize
+  const axios = useAxios()
 
-//or
-axios.post(url,{...})
+  //use it like a regular axios
+  axios({
+    method:'post',
+    url: 'url',
+    data: data
+  })
 
-// or
-axios.get(url,{...})
+  //or
+  axios.post(url,{...})
+
+  // or
+  axios.get(url,{...})
+
+
+}
 
 ```
 
