@@ -1,6 +1,6 @@
 # use-axios
 
-> Simple React hooks for fetching data using axios 
+> Simple React hooks for fetching data using axios with prepared axios cancel token already set
 
 [![NPM](https://img.shields.io/npm/v/use-axios.svg)](https://www.npmjs.com/package/use-axios) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -12,18 +12,7 @@ npm install --save use-axios
 
 ## Usage
 
-```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'use-axios'
-import 'use-axios/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
+You can use it as regular axios
 
 ## License
 
