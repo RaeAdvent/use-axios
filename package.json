@@ -1,5 +1,5 @@
 {
-  "name": "use-axios",
+  "name": "rad-use-axios",
   "version": "1.0.0",
   "description": "Simple React hooks for fetching data using axios with prepared axios cancel token already set",
   "author": "Raeneldis A. Sadra",
