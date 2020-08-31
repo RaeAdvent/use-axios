@@ -7,12 +7,31 @@
 ## Install
 
 ```bash
-npm install --save use-axios
+npm install --save rad-use-axios
 ```
 
 ## Usage
 
 You can use it as regular axios
+
+```tsx
+
+import axios from 'rad-use-axios'
+
+//use it like a regular axios
+axios({
+  method:'post',
+  url: 'url',
+  data: data
+})
+
+//or
+axios.post(url,{...})
+
+// or
+axios.get(url,{...})
+
+```
 
 ## License
 
